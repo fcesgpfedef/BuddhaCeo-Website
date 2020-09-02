@@ -13,7 +13,7 @@ router.get("/ourprograms" , function(req, res) {
 	res.render("programs");
 })
 
-router.get("/donate" , function(req, res) {
+router.get("/donations" , function(req, res) {
 	res.render("donate");
 })
 
